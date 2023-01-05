@@ -140,3 +140,55 @@ section{
     color: #757575;
 }
 /* Resyme style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .subtitle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .discription{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input, textarea{
+    width: 100%;
+    padding: 18px 30px;
+    margin-top: 25px;
+    border-radius: 7px;
+    border: 1px solid #FD6E0A;
+    outline: none;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
